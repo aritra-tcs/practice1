@@ -15,4 +15,4 @@ lis=[int(x) for x in input().strip().split()]
 for i in lis:
     sum+=i
 n=len(lis)
-print(sum//n)
+print(".2f"%sum//n)
