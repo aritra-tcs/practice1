@@ -10,3 +10,9 @@ for i in range(4):
     for row in matrix:
         lis.append(row[i])
     final_list.append(lis)
+sum=0
+lis=[int(x) for x in input().strip().split()]
+for i in lis:
+    sum+=i
+n=len(lis)
+print(sum//n)
